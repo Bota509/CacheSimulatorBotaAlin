@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e170194b-fdb1-4991-855b-729d80a55d96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Block.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CacheBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CacheReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CacheSimulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Set.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Statistics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WritePolicy.java" afterDir="false" />
+    <list default="true" id="e170194b-fdb1-4991-855b-729d80a55d96" name="Changes" comment="modificat fara write miss">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/CacheController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enums/CacheType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enums/Replacement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enums/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/body/Block.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/body/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/CacheView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/StartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Block.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CacheBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CacheReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CacheSimulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Configuration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Request.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Set.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Statistics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WritePolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enums/WritePolicy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,20 +50,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/snake/OneDrive/Desktop/FACULTATE_AN3_SEM1/SCS/PROIECT/CacheSimulatorBotaAlin&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\snake\OneDrive\Desktop\FACULTATE_AN3_SEM1\SCS\PROIECT\CacheSimulatorBotaAlin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="CacheSimulatorBotaAlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringToBigInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringToBigInteger" />
       <module name="CacheSimulatorBotaAlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -63,6 +85,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.StringToBigInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -74,8 +97,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702299924993</updated>
-      <workItem from="1702299926500" duration="3596000" />
+      <workItem from="1702299926500" duration="16182000" />
+      <workItem from="1702469567075" duration="2138000" />
+      <workItem from="1702974563675" duration="996000" />
+      <workItem from="1702996150696" duration="7832000" />
+      <workItem from="1704449469209" duration="7439000" />
+      <workItem from="1704708917005" duration="11006000" />
+      <workItem from="1704824934332" duration="7412000" />
+      <workItem from="1704872058194" duration="3205000" />
+      <workItem from="1704882115099" duration="4363000" />
+      <workItem from="1704888985976" duration="1974000" />
     </task>
+    <task id="LOCAL-00001" summary="modificat fara write miss">
+      <created>1702374442439</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702374442439</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,5 +131,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="modificat fara write miss" />
+    <option name="LAST_COMMIT_MESSAGE" value="modificat fara write miss" />
   </component>
 </project>

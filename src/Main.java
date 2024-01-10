@@ -1,20 +1,14 @@
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+import Controller.CacheController;
+import body.Cache;
+import views.CacheView;
+import views.StartPage;
 
 public class Main {
-    public static void main(String[] args) throws FileNotFoundException {
-//        FileInputStream fis = new FileInputStream("PubliclyAvailableTestCases/traces/r1.trace");
-//        CacheReader cacheReader = new CacheReader(fis);
-        CacheReader cacheReader = new CacheReader(System.in);
-        CacheSimulator cacheSimulator = cacheReader.readCache();
+    public static void main(String[] args) {
 
-        Request req = cacheReader.readRequest();
-        while (req != null) {
-            cacheSimulator.request(req.getType(), req.getAddress());
-            req = cacheReader.readRequest();
-        }
-        cacheSimulator.copyBackDirties();
+        StartPage startPage = new StartPage();
+        CacheView cacheView = new CacheView();
+        CacheController cacheController = new CacheController(startPage,cacheView);
 
-        System.out.println(cacheSimulator);
     }
 }
